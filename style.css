@@ -1,0 +1,111 @@
+body {
+  background-color: #F1DEDE;
+  font-family: 'Montserrat', sans-serif;
+  color: #4B4656;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #322F3A;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #322F3A;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+th {
+  font-family: 'Montserrat', sans-serif;
+  color: #322F3A;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+link {
+  color: #FF6156;
+  text-decoration-style: solid
+}
+
+a:hover {
+  background-color: gold;
+}
+
+.card {
+  border: 1px solid #E3C7CE;
+  background-color: #E3C7CE;
+  padding 15px, 15px;
+  width: 80%;
+  text-align: center;
+  margin: 30px auto;
+  box-shadow: 1px 1px 1px rgba(201, 145, 160, 1);
+  border-radius: 5px ;
+}
+
+.social-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 3px solid #CFB5BC;
+  margin: 5px;
+}
+
+.pic {
+  width: 100%;
+  border-radius: 5px;
+}
+
+table {
+  margin: 20px auto;
+}
+
+tr {
+  padding: 10px;
+  margin: 30px auto
+}
+
+th {
+  background-color: #9A7A83;
+  padding: 10px;
+  width: 400px;
+}
+
+#profile_pic {
+  margin: 15px;
+}
+
+#exception {
+  background-color: #E3C7CE;
+}
+
+.dream {
+  text-decoration: underline;
+}
+
+.td {
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
